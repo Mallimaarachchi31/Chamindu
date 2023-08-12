@@ -181,11 +181,11 @@
 			</div>
 		</div>
 		<div class="contact-form">
-			<form action="">
-				<input type="name" placeholder="Your Name" required>
-				<input type="email" placeholder="Your Email" required>
-				<input type="number" placeholder="Your Mobile Number" required>
-				<textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
+			<form action="connect.php" method="post">
+				<input type="name" placeholder="Your Name" required name="name">
+				<input type="email" placeholder="Your Email" required name="email">
+				<input type="number" placeholder="Your Mobile Number" required name="mobilenumber">
+				<textarea name="howcanihelpyou" id="" cols="35" rows="10" placeholder="How Can I Help You" required></textarea>
 				<input type="submit" value="Send Message" class="submit" required>
 			</form>
 		</div>
